@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Import Rubik and Anuphan font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Import Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/326fa2dd31.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Import TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Card with TailwindCSS</title>
+  </head>
+  <body class="font-['Rubik','Anuphan'] text-[#231f20]">
+    <section
+      class="bg-slate-50 p-6 flex justify-center items-center w-screen h-screen overflow-y-auto"
+    >
+      <a
+        href="#"
+        class="bg-white shadow-lg flex flex-col max-w-[300px] rounded-lg overflow-hidden transition hover:-translate-y-4 hover:shadow-xl"
+      >
+        <img
+          src="https://public-assets.skooldio.com/storefront-sku%2F4a711ed0-43d5-46ea-b974-e3788a62c9ac%2FAlgo-regular.png"
+          alt=""
+        />
+        <div class="p-4 flex flex-col gap-2">
+          <div class="flex flex-col gap-1">
+            <span class="text-[#faa91a] text-xs leading-normal tracking-[0.5px]"
+              >ONLINE COURSE</span
+            >
+            <h3
+              class="text-[16px] font-medium leading-normal tracking-[0.1px] line-clamp-3"
+            >
+              Algorithm Essentials: Bridging Theory and Real-World Practice
+            </h3>
+            <p class="tracking-[0.5px] text-[#707070] text-sm">
+              เรียนรู้กระบวนการคิดในการเขียนโปรแกรมด้วย Algorithm
+            </p>
+          </div>
+          <div class="flex flex-col gap-4">
+            <div class="flex gap-1 text-[#faa91a] text-sm leading-none">
+              <span class="inline-flex items-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </span>
+              <span>4.5</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <img
+                class="w-[32px] h-[32px]"
+                src="https://public-assets.skooldio.com/storefront-category%2F6bae3f47-a202-42ec-883f-1b5c459d401a%2FSkooldio_logo_crop.jpeg"
+                alt=""
+              />
+              <p class="text-xs leading-none tracking-[0.5px]">Skooldio Team</p>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-[#484848]/10 py-2 px-4">
+          <p class="text-end font-semibold leading-normal tracking-[0.5px]">
+            1,990.-
+          </p>
+        </div>
+      </a>
+    </section>
+  </body>
+</html>
